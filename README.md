@@ -1,0 +1,1 @@
+This repo contains resume for different positions. The Main branch contains a generic resume. While deve branch contains resume under progress. Moreever, any specialized resume for a specific position or company will have there own branches. 
