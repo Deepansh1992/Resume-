@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deepansh Agrawal - Resume</title>
+<style>
+    @page {
+        size: A4;
+        margin: 6mm;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        width: 210mm;
+        min-height: 297mm;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+    }
+    .content {
+        padding: 5mm;
+    }
+    .header {
+        margin-bottom: 12px;
+    }
+    .header-line {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 6px;
+    }
+    .name {
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .job-title {
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .line {
+        border-top: 1.5px solid #000;
+        margin: 4px 0 6px 0;
+    }
+    .contact-info {
+        font-size: 13px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 25px;
+    }
+    .contact-info a {
+        text-decoration: none;
+        color: #333;
+    }
+    h2 {
+        margin-top: 14px;
+        font-size: 20px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 3px;
+        margin-bottom: 6px;
+    }
+    h3 {
+        font-size: 16px;
+        margin-top: 6px;
+        margin-bottom: 3px;
+    }
+    p, li {
+        font-size: 14px;
+        line-height: 1.35;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    ul {
+        margin-top: 0;
+        margin-bottom: 4px;
+        padding-left: 18px;
+    }
+    .section {
+        margin-bottom: 10px;
+    }
+    .skills-category {
+        font-weight: bold;
+        margin-top: 6px;
+        margin-bottom: 3px;
+    }
+</style>
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+            <div class="header-line">
+                <div class="name">DEEPANSH AGRAWAL</div>
+                <div class="job-title">IP DESIGN VERIFICATION ENGINEER</div>
+            </div>
+            <div class="line"></div>
+            <div class="contact-info">
+                <span>📧 <a href="mailto:deepansh.agr@live.in">deepansh.agr@live.in</a></span>
+                <span>📞 5305917112</span>
+                <span>🔗 <a href="https://linkedin.com/in/deepansh-agrawal">deepansh-agrawal</a></span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Skills & Abilities</h2>
+            <div class="skills-category">Verification Expertise</div>
+            <ul>
+                <li>Expertise in SystemVerilog and UVM (Universal Verification Methodology), OVM</li>
+                <li>Strong knowledge of test planning, functional coverage, code coverage, and assertion-based verification (SVA)</li>
+                <li>Proficient in constrained random verification, directed testing, and debugging techniques</li>
+                <li>Hands-on experience with monitors, scoreboards, BFM/agents, stimulus and reference model development</li>
+            </ul>
+            <div class="skills-category">EDA Tools</div>
+            <ul>
+                <li>Proficiency in industry-standard EDA tools: Synopsys VCS, Verdi, Xilinx ISE, Triage tools</li>
+                <li>Basics of power analysis (PowerArtist) and static checks (Lint)</li>
+            </ul>
+            <div class="skills-category">Protocols & Interfaces</div>
+            <ul>
+                <li>Experience in AMBA APB, I2C, IOSF, JTAG protocols</li>
+                <li>Experience in TAP interface ICL files and Register interface RAL files</li>
+            </ul>
+            <div class="skills-category">Scripting & Automation</div>
+            <ul>
+                <li>Strong scripting skills in Python and basics of Perl, TCL, Unix Shell for automation and log analysis</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Employment</h2>
+            <h3>Intel Corp., IP Design Verification Engineer, Santa Clara, CA <span style="float:right; font-weight:normal">Sept. 2021 - Current</span></h3>
+            <ul>
+                <li>Led the verification efforts for the Power Unit IP, also known as PUnit, utilized in Intel's Xeon series processors.</li>
+                <li>Conducted functional verification of IP logic, ensuring alignment with specification requirements by developing and executing comprehensive verification plans, test benches, and simulation models.</li>
+                <li>Identified, replicated, and debugged pre-silicon issues, implementing corrective measures to enhance test coverage and ensure design robustness.</li>
+                <li>Collaborated with cross-functional teams, including architects, RTL developers, and physical design engineers, to optimize the verification of complex architectural and microarchitectural features.</li>
+                <li>Maintained and enhanced verification infrastructure and methodologies, ensuring compliance with microarchitecture specifications and leading technical reviews to refine processes.</li>
+                <li>Contributed to the definition of verification infrastructure and documented test plans, and actively participated in technical reviews to ensure the integrity and accuracy of designs.</li>
+                <li>Managed several features simultaneously, overseeing their progression from planning to execution, and was accountable for declaring the features' quality based on standards established by the customer and product manager.</li>
+            </ul>
+
+            <h3>Axiado Corp., ASIC Verification Engineer, San Jose <span style="float:right; font-weight:normal">Nov. 2018 - Aug. 2021</span></h3>
+            <ul>
+                <li>Spearheaded the integration of TileLink driver and monitor within a comprehensive verification environment, enabling verification of data transactions from the TileLink interface to the DUT.</li>
+                <li>Conducted gate-level and annotated simulations in a full-chip environment, collaborating closely with verification engineers to ensure seamless full-chip verification.</li>
+                <li>Executed full verification of a TileLink Lite slave bus interfacing the DDR3 memory controller with the core, created the UVM based verification environment from scratch. Implemented Scoreboard check for out of order transaction.</li>
+                <li>Verified and integrated the Programmable Interval Timer with the Rocket Chip utilizing the TileLink slave bus.</li>
+            </ul>
+
+            <h3>Digital Design Engineer Intern, San Jose, CA <span style="float:right; font-weight:normal">July 2018 - Nov. 2018</span></h3>
+            <ul>
+                <li>Created constrained testcases, driver, monitors to verify an asynchronous FIFO, reported bugs after analyzing waveforms additional responsibilities included designing state machines, laying out the block level diagram of RTL modules.</li>
+                <li>Designed a complete UVM based environment to verify wishbone slave bus and lead the wishbone slave integration.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <h3>California State University, Chico <span style="float:right; font-weight:normal">Aug. 2016 - May 2018</span></h3>
+            <p>Master of Science Computer Engineering 2018</p>
+            <h3>Rajiv Gandhi Technological University <span style="float:right; font-weight:normal">Oct. 2009 - May 2013</span></h3>
+            <p>Bachelor of Engineering Electronics and Communication 2013</p>
+        </div>
+    </div>
+</body>
+</html>
