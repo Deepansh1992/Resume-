@@ -116,43 +116,38 @@
             <div class="skills-category">EDA Tools</div>
             <ul>
                 <li>Proficiency in industry-standard EDA tools: Synopsys VCS, Verdi, Xilinx ISE, Triage tools</li>
-                <li>Basics of power analysis (PowerArtist) and static checks (Lint)</li>
             </ul>
             <div class="skills-category">Protocols & Interfaces</div>
             <ul>
                 <li>Experience in AMBA APB, I2C, IOSF, JTAG protocols</li>
-                <li>Experience in TAP interface ICL files and Register interface RAL files</li>
-            </ul>
-            <div class="skills-category">Scripting & Automation</div>
-            <ul>
-                <li>Strong scripting skills in Python and basics of Perl, TCL, Unix Shell for automation and log analysis</li>
             </ul>
         </div>
 
         <div class="section">
             <h2>Employment</h2>
-            <h3>Intel Corp., IP Design Verification Engineer, Santa Clara, CA <span style="float:right; font-weight:normal">Sept. 2021 - Current</span></h3>
+            <h3>Intel - IP Design Verification Engineer <span style="float:right; font-weight:normal">Sept. 2021 - Current</span></h3>
             <ul>
-                <li>Led the verification efforts for the Power Unit IP, also known as PUnit, utilized in Intel's Xeon series processors.</li>
-                <li>Conducted functional verification of IP logic, ensuring alignment with specification requirements by developing and executing comprehensive verification plans, test benches, and simulation models.</li>
-                <li>Identified, replicated, and debugged pre-silicon issues, implementing corrective measures to enhance test coverage and ensure design robustness.</li>
-                <li>Collaborated with cross-functional teams, including architects, RTL developers, and physical design engineers, to optimize the verification of complex architectural and microarchitectural features.</li>
-                <li>Maintained and enhanced verification infrastructure and methodologies, ensuring compliance with microarchitecture specifications and leading technical reviews to refine processes.</li>
-                <li>Contributed to the definition of verification infrastructure and documented test plans, and actively participated in technical reviews to ensure the integrity and accuracy of designs.</li>
-                <li>Managed several features simultaneously, overseeing their progression from planning to execution, and was accountable for declaring the features' quality based on standards established by the customer and product manager.</li>
+                <li>Owned Intel VT-d IOMMU verification with focus on DMA translation, page-table walks, PASID flows, fault handling, interrupt remapping, and address translation across legacy and scalable modes.</li>
+                <li>Developed a reusable fault-injection framework that selectively disables legal-transaction constraints and mutates requests to generate targeted fault conditions. Used it to drive and validate fault detection, logging, reporting, and recovery flows.</li>
+                <li>Built UVM sequences, checkers, and coverage based on detailed understanding of IOMMU translation behavior. Developed tests for translation corner cases, invalid mappings, access violations, and complex page-walk scenarios.</li>
+                <li>Debugged translation and fault failures by tracing requests through context tables, PASID tables, and multi-level page tables. Worked with architects and designers to root-cause specification, model, and RTL mismatches.</li>
+                <li>Led IP-level verification for Intel Xeon Punit Power Management IP, owning architectural and micro-architectural validation of thermal throttling, ADR, TPMI, and Triggers/Actions features.</li>
+                <li>Replaced stage-based scoreboarding for throttle verification with assertion-based checking derived directly from micro-architecture behavior. Improved bug observability and reduced validation complexity for critical throttle paths.</li>
+                <li>Developed targeted stimulus and validation strategies to exercise rarely hit ADR and throttle micro-architectural paths. Closed coverage holes beyond traditional constrained-random testing and uncovered RTL corner-case bugs.</li>
+                <li>Built end-to-end verification infrastructure for the Triggers/Actions feature including DVP stimulus, protocol integration, assertions, checkers, and trigger-response validation.</li>
+                <li>Owned TPMI verification and created realistic mailbox traffic while simultaneously stressing corner cases, resets, access controls, timeouts, and back-to-back transactions to expose robustness issues.</li>
+                <li>Collaborated closely with architects, RTL designers, firmware teams, and cross-IP verification teams to debug failures, clarify behavior, close design gaps, and deliver signoff-quality verification.</li>
             </ul>
 
             <h3>Axiado Corp., ASIC Verification Engineer, San Jose <span style="float:right; font-weight:normal">Nov. 2018 - Aug. 2021</span></h3>
             <ul>
                 <li>Spearheaded the integration of TileLink driver and monitor within a comprehensive verification environment, enabling verification of data transactions from the TileLink interface to the DUT.</li>
-                <li>Conducted gate-level and annotated simulations in a full-chip environment, collaborating closely with verification engineers to ensure seamless full-chip verification.</li>
-                <li>Executed full verification of a TileLink Lite slave bus interfacing the DDR3 memory controller with the core, created the UVM based verification environment from scratch. Implemented Scoreboard check for out of order transaction.</li>
-                <li>Verified and integrated the Programmable Interval Timer with the Rocket Chip utilizing the TileLink slave bus.</li>
+                <li>Executed end-to-end verification of a TileLink Lite slave bus interfacing the DDR3 memory controller, built a UVM environment from scratch, and implemented scoreboard checks for out-of-order transactions.</li>
             </ul>
 
             <h3>Digital Design Engineer Intern, San Jose, CA <span style="float:right; font-weight:normal">July 2018 - Nov. 2018</span></h3>
             <ul>
-                <li>Created constrained testcases, driver, monitors to verify an asynchronous FIFO, reported bugs after analyzing waveforms additional responsibilities included designing state machines, laying out the block level diagram of RTL modules.</li>
+                <li>Created constrained testcases, drivers, and monitors to verify an asynchronous FIFO; analyzed waveforms to report bugs and contributed to state machine design and RTL block-level diagrams.</li>
                 <li>Designed a complete UVM based environment to verify wishbone slave bus and lead the wishbone slave integration.</li>
             </ul>
         </div>
@@ -161,8 +156,6 @@
             <h2>Education</h2>
             <h3>California State University, Chico <span style="float:right; font-weight:normal">Aug. 2016 - May 2018</span></h3>
             <p>Master of Science Computer Engineering 2018</p>
-            <h3>Rajiv Gandhi Technological University <span style="float:right; font-weight:normal">Oct. 2009 - May 2013</span></h3>
-            <p>Bachelor of Engineering Electronics and Communication 2013</p>
         </div>
     </div>
 </body>
